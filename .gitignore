@@ -1,0 +1,77 @@
+# datasets
+datasets/
+external_source_index/
+v43_inputs/
+v44_inputs/
+models/
+
+# jsonl raw data
+*.jsonl
+
+# large data files
+*.csv
+
+# model weights
+*.bin
+*.safetensors
+*.pt
+
+# training cache
+unsloth_compiled_cache/
+hf_cache/
+.venv/
+__pycache__/
+.cache/
+
+# outputs
+output*/
+runs/
+checkpoint*/
+
+# logs
+*.log
+
+# Windows metadata
+*:Zone.Identifier
+
+# models
+experiments/qwen_fourway/models/
+
+# backups
+*.bak
+*.save
+*.backup
+*.bak_*
+*_backup*
+
+# temporary reports
+probe_report.json
+external_download_report.json
+data_sources_report.json
+dataset_inventory.json
+candidate_datasets.json
+top_candidates.md
+
+# Explicit repository-wide exclusions
+**/datasets/
+**/external_source_index/
+**/v43_inputs/
+**/v44_inputs/
+**/models/
+**/.venv/
+**/__pycache__/
+**/.cache/
+**/unsloth_compiled_cache/
+**/hf_cache/
+**/runs/
+**/output*/
+**/checkpoint*/
+**/*.jsonl
+**/*.csv
+**/*.bin
+**/*.safetensors
+**/*.pt
+**/*.bak
+**/*.save
+**/*.backup
+**/*:Zone.Identifier

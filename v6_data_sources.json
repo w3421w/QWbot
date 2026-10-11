@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "source": "BelleGroup/train_0.5M_CN",
+      "url": "https://datasets-server.huggingface.co/first-rows?dataset=BelleGroup%2Ftrain_0.5M_CN&config=default&split=train&offset=0&length=100",
+      "dataset_type": "huggingface",
+      "format": "json",
+      "suggested_role": "finetune",
+      "keywords": ["中文社区对话", "中文指令对话"]
+    },
+    {
+      "source": "Chinese internet meme glossary (GitHub search target)",
+      "url": "https://github.com/search?q=中文+网络流行语+jsonl&type=code",
+      "dataset_type": "github",
+      "format": "jsonl",
+      "suggested_role": "knowledge",
+      "keywords": ["网络流行语", "梗解释"]
+    },
+    {
+      "source": "local datasets directory",
+      "url": "local://datasets",
+      "dataset_type": "local",
+      "format": "jsonl,csv,json",
+      "suggested_role": "review",
+      "keywords": ["贴吧/论坛对话", "B站评论", "游戏社区语言"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "case": "03",
+  "model": "/home/alex/Qwen_Finetune/experiments/qwen_fourway/models/03_qwen3_4b_instruct_2507_bnb4",
+  "thinking": false,
+  "prompt": "群友甲：昨天说不干了。群友乙：明天早到一个小时继续上班。群友丙：这是什么成分？请用一句自然的群聊口吻回复丙。",
+  "answer": "别问是什么成分，就是早起打卡，跟闹钟斗智斗勇啊！",
+  "reasoning_chars": 0,
+  "thinking_closed": false,
+  "load_seconds": 16.508,
+  "generate_seconds": 11.044,
+  "prompt_tokens": 77,
+  "generated_tokens": 20,
+  "peak_vram_gb": 3.376,
+  "model_base_only": true
+}

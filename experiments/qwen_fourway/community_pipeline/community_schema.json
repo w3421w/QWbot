@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QWbot offline community candidate v1",
+  "type": "object",
+  "required": ["platform", "domain", "topics", "subtopics", "classification_confidence", "classification_evidence", "thread_id", "message_id", "parent_comment_id", "root_comment_id", "speaker_id", "message_order", "text", "content_type", "created_at", "video_id", "post_id", "source_url", "source_file", "source_record_id", "provenance_type", "is_synthetic", "source_license", "license_status", "review_status", "trainable", "quality_flags", "privacy_flags", "parse_status", "split", "source_group_id"],
+  "properties": {
+    "platform": {"type":"string"}, "domain":{"type":"array","items":{"type":"string"}}, "topics":{"type":"array","items":{"type":"string"}}, "subtopics":{"type":"array","items":{"type":"string"}},
+    "classification_confidence":{"type":"number","minimum":0,"maximum":1}, "classification_evidence":{"type":"array"}, "classification_version":{"type":["string","null"]},
+    "thread_id":{"type":["string","null"]},"message_id":{"type":"string"},"parent_comment_id":{"type":["string","null"]},"root_comment_id":{"type":["string","null"]},"speaker_id":{"type":["string","null"]},"message_order":{"type":["integer","null"]},
+    "text":{"type":"string"},"content_type":{"enum":["comment","danmaku","livestream_chat","post"]},"created_at":{"type":["string","integer","null"]},
+    "video_id":{"type":["string","integer","null"]},"post_id":{"type":["string","integer","null"]},"source_url":{"type":["string","null"]},"source_file":{"type":"string"},"source_record_id":{"type":"string"},
+    "provenance_type":{"enum":["offline_user_export","synthetic_fixture","public_dataset_sample"]},"is_synthetic":{"type":"boolean"},"source_license":{"type":["string","null"]},"license_status":{"type":"string"},"review_status":{"type":"string"},"trainable":{"const":false},"quality_flags":{"type":"array"},"privacy_flags":{"type":"array"},"parse_status":{"type":"string"},"split":{"type":["string","null"]},"source_group_id":{"type":["string","null"]}
+  },
+  "additionalProperties": true
+}

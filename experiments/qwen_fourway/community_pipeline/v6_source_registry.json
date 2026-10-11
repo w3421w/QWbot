@@ -1,0 +1,57 @@
+[
+  {
+    "source_id": "bilibili_comment_reply_chains",
+    "name": "Bilibili评论回复链",
+    "url": "https://www.bilibili.com/",
+    "source_type": "community_comments",
+    "candidate_role": "both",
+    "community": "bilibili",
+    "license_status": "verification_pending",
+    "quality_rating": 4,
+    "notes": "评论与回复上下文适合对话候选；需确认公开数据许可、隐私与抓取合规。"
+  },
+  {
+    "source_id": "bilibili_large_scale_comments",
+    "name": "Bilibili大规模评论数据",
+    "url": "https://www.bilibili.com/",
+    "source_type": "community_comments",
+    "candidate_role": "both",
+    "community": "bilibili",
+    "license_status": "verification_pending",
+    "quality_rating": 3,
+    "notes": "规模大但噪声和重复较多，需先做去重、隐私和质量过滤。"
+  },
+  {
+    "source_id": "lccc_chinese_chat",
+    "name": "LCCC中文聊天数据",
+    "url": "https://github.com/thu-coai/LCCC",
+    "source_type": "dialogue_dataset",
+    "candidate_role": "finetune",
+    "community": "internet_general",
+    "license_status": "verification_pending",
+    "quality_rating": 4,
+    "notes": "中文多轮聊天数据；使用前核对原始许可和再分发条件。"
+  },
+  {
+    "source_id": "memebench",
+    "name": "MemeBench",
+    "url": "https://github.com/haotiansun14/MemeBench",
+    "source_type": "benchmark_dataset",
+    "candidate_role": "knowledge",
+    "community": "internet_general",
+    "license_status": "verification_pending",
+    "quality_rating": 4,
+    "notes": "梗知识评测来源，默认作为知识候选或评测保留，不直接用于对话微调。"
+  },
+  {
+    "source_id": "chime",
+    "name": "CHIME",
+    "url": "https://github.com/thu-coai/CHIME",
+    "source_type": "dialogue_dataset",
+    "candidate_role": "knowledge",
+    "community": "internet_general",
+    "license_status": "verification_pending",
+    "quality_rating": 3,
+    "notes": "中文互联网梗/知识相关数据；需核对字段、许可和隐私后再分流。"
+  }
+]

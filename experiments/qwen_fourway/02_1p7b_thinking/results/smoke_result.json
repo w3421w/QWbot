@@ -1,0 +1,15 @@
+{
+  "case": "02",
+  "model": "unsloth/Qwen3-1.7B-unsloth-bnb-4bit",
+  "thinking": true,
+  "prompt": "群友甲：昨天说不干了。群友乙：明天早到一个小时继续上班。群友丙：这是什么成分？请用一句自然的群聊口吻回复丙。",
+  "answer": "这事儿别问，干了就是。",
+  "reasoning_chars": 403,
+  "thinking_closed": true,
+  "load_seconds": 6.952,
+  "generate_seconds": 20.654,
+  "prompt_tokens": 77,
+  "generated_tokens": 278,
+  "peak_vram_gb": 1.362,
+  "model_base_only": true
+}

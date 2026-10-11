@@ -1,0 +1,38 @@
+{
+  "version": "V4.3",
+  "train_count": 268,
+  "valid_count": 36,
+  "category_distribution": {
+    "回旋镖与清算": 36,
+    "贷款吹与反串": 44,
+    "赛事梗与讨论": 31,
+    "抽象短梗": 44,
+    "粉丝争论与拆台": 49,
+    "事实与边界": 22,
+    "日常水帖接话": 44,
+    "认真回应": 18,
+    "多轮群聊接梗": 16
+  },
+  "origins": {
+    "forum_candidate": 105,
+    "authored_example": 55,
+    "authored_example_v43": 144
+  },
+  "mean_answer_chars": 13.53,
+  "one_to_three_chars": 5,
+  "diagnostics": {
+    "accepted_forum_candidate": 105,
+    "not_approved": 1077,
+    "accepted_authored_example": 55,
+    "accepted_authored_example_v43": 144
+  },
+  "holdout_count": 93,
+  "train_path": "/mnt/data/_v43_smoke/datasets/kangba_v43_train.jsonl",
+  "valid_path": "/mnt/data/_v43_smoke/datasets/kangba_v43_valid.jsonl",
+  "limitations": [
+    "自动提取的论坛回复缺少真实楼中楼父评论；approve=y仍不能证明事实正确。",
+    "原创示范非真实抗吧评论，可能造成表达模式单一；请比较实际模型回复。",
+    "仅做字面高度相似的测试污染过滤；语义近重复仍需人工核查。",
+    "训练、验证分组按原帖/问题/回答去重，但小规模验证Loss波动较大。"
+  ]
+}

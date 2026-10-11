@@ -1,0 +1,7 @@
+{
+  "version":"1.0",
+  "status":"no_real_bilibili_or_xiaohongshu_export_imported",
+  "trainable":false,
+  "sources":[],
+  "input_contract":{"bilibili":"JSON/JSONL list or records/comments array; each comment requires id,text,video_id or thread_id; optional parent_id,root_id,author_id,order,created_at,content_type. Danmaku and livestream_chat use distinct content_type; parent links only if explicitly exported.","xiaohongshu":"JSON/JSONL list or records/comments array; each record requires id,text,post_id; optional parent_id,root_id,author_id,order,created_at,content_type. Only authorized offline exports."}
+}

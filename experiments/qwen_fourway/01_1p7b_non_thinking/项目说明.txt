@@ -1,0 +1,1 @@
+编号01：Qwen3 1.7B 非思考；基础权重 unsloth/Qwen3-1.7B-unsloth-bnb-4bit；与02共享缓存；enable_thinking=False；结果写在本目录/results。

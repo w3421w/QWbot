@@ -1,0 +1,1 @@
+编号04：Qwen3-4B-Thinking-2507 仅思考，预量化4bit；实体模型存experiments/qwen_fourway/models/04_qwen3_4b_thinking_2507_bnb4；结果写在本目录/results。

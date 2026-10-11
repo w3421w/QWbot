@@ -1,0 +1,8 @@
+{
+  "pipeline": "QWbot conversation phase 2",
+  "target_model": "Qwen3-4B-Instruct-2507",
+  "sources": [{"name":"SmoothConv","dataset":"qualialabsAI/SmoothConv","official_url":"https://huggingface.co/datasets/qualialabsAI/SmoothConv","license":"CC BY-NC 4.0","license_status":"non_commercial_research_candidate","download_audio":false,"trainable_default":false}],
+  "raw_directory":"datasets/conversation_raw/smoothconv_json",
+  "output_directory":"experiments/qwen_fourway/conversation_pipeline/output_smoothconv_pilot",
+  "test_set_isolation":"QWbot 31题测试集 remains external and isolated"
+}

@@ -1,0 +1,17 @@
+{
+  "case": "04",
+  "model": "/home/alex/Qwen_Finetune/experiments/qwen_fourway/models/04_qwen3_4b_thinking_2507_bnb4",
+  "thinking": true,
+  "prompt": "群友甲：昨天说不干了。群友乙：明天早到一个小时继续上班。群友丙：这是什么成分？请用一句自然的群聊口吻回复丙。",
+  "answer": "丙，成分？不干了的成分就是“懒”！ 😂",
+  "reasoning_chars": 3197,
+  "thinking_closed": true,
+  "response_ok": true,
+  "hit_token_limit": false,
+  "load_seconds": 5.664,
+  "generate_seconds": 163.448,
+  "prompt_tokens": 79,
+  "generated_tokens": 2282,
+  "peak_vram_gb": 3.607,
+  "model_base_only": true
+}
