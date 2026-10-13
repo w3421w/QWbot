@@ -1,0 +1,210 @@
+{
+  "name": "QWbot V2 Alpha Qwen3/Qwen4B SFT dataset",
+  "version": "qwbot_v2_alpha_dataset_v1",
+  "random_seed": 20261013,
+  "validation_ratio": 0.1,
+  "input": {
+    "path": "<private-data>/qwbot_v2_expansion_sft_v1.jsonl",
+    "metadata_path": "<private-data>/qwbot_v2_expansion_metadata.jsonl",
+    "total_nonempty_lines": 1500,
+    "valid_json_objects": 1500,
+    "invalid_rows": 0
+  },
+  "总输入数量": 1500,
+  "total_input_count": 1500,
+  "最终train数量": 1350,
+  "final_train_count": 1350,
+  "最终val数量": 150,
+  "final_validation_count": 150,
+  "final_count": 1500,
+  "类别分布": {
+    "all": {
+      "游戏群": 328,
+      "日常闲聊": 294,
+      "@机器人": 221,
+      "学习科研": 158,
+      "朋友互损": 122,
+      "情绪支持": 90,
+      "抽象整活": 71,
+      "新闻讨论": 66,
+      "低信息聊天": 50,
+      "多人同时聊天": 50,
+      "话题切换": 50
+    },
+    "train": {
+      "游戏群": 301,
+      "日常闲聊": 260,
+      "@机器人": 202,
+      "学习科研": 146,
+      "朋友互损": 107,
+      "情绪支持": 78,
+      "抽象整活": 66,
+      "新闻讨论": 57,
+      "多人同时聊天": 46,
+      "话题切换": 44,
+      "低信息聊天": 43
+    },
+    "validation": {
+      "日常闲聊": 34,
+      "游戏群": 27,
+      "@机器人": 19,
+      "朋友互损": 15,
+      "学习科研": 12,
+      "情绪支持": 12,
+      "新闻讨论": 9,
+      "低信息聊天": 7,
+      "话题切换": 6,
+      "抽象整活": 5,
+      "多人同时聊天": 4
+    }
+  },
+  "category_distribution": {
+    "all": {
+      "游戏群": 328,
+      "日常闲聊": 294,
+      "@机器人": 221,
+      "学习科研": 158,
+      "朋友互损": 122,
+      "情绪支持": 90,
+      "抽象整活": 71,
+      "新闻讨论": 66,
+      "低信息聊天": 50,
+      "多人同时聊天": 50,
+      "话题切换": 50
+    },
+    "train": {
+      "游戏群": 301,
+      "日常闲聊": 260,
+      "@机器人": 202,
+      "学习科研": 146,
+      "朋友互损": 107,
+      "情绪支持": 78,
+      "抽象整活": 66,
+      "新闻讨论": 57,
+      "多人同时聊天": 46,
+      "话题切换": 44,
+      "低信息聊天": 43
+    },
+    "validation": {
+      "日常闲聊": 34,
+      "游戏群": 27,
+      "@机器人": 19,
+      "朋友互损": 15,
+      "学习科研": 12,
+      "情绪支持": 12,
+      "新闻讨论": 9,
+      "低信息聊天": 7,
+      "话题切换": 6,
+      "抽象整活": 5,
+      "多人同时聊天": 4
+    }
+  },
+  "source分布": {
+    "all": {
+      "messages.csv": 700,
+      "special_scenarios": 500,
+      "multi_groupchat_augmented": 200,
+      "qwbot_v2_gold97_persona_review.json": 100
+    },
+    "train": {
+      "messages.csv": 621,
+      "special_scenarios": 456,
+      "multi_groupchat_augmented": 180,
+      "qwbot_v2_gold97_persona_review.json": 93
+    },
+    "validation": {
+      "messages.csv": 79,
+      "special_scenarios": 44,
+      "multi_groupchat_augmented": 20,
+      "qwbot_v2_gold97_persona_review.json": 7
+    }
+  },
+  "source_distribution": {
+    "all": {
+      "messages.csv": 700,
+      "special_scenarios": 500,
+      "multi_groupchat_augmented": 200,
+      "qwbot_v2_gold97_persona_review.json": 100
+    },
+    "train": {
+      "messages.csv": 621,
+      "special_scenarios": 456,
+      "multi_groupchat_augmented": 180,
+      "qwbot_v2_gold97_persona_review.json": 93
+    },
+    "validation": {
+      "messages.csv": 79,
+      "special_scenarios": 44,
+      "multi_groupchat_augmented": 20,
+      "qwbot_v2_gold97_persona_review.json": 7
+    }
+  },
+  "平均user长度": 113.05,
+  "average_user_length": 113.05,
+  "平均assistant长度": 24.95,
+  "average_assistant_length": 24.95,
+  "重复率": 0.0,
+  "duplicate_rate": 0.0,
+  "duplicate_pair_count": 0,
+  "assistant_exact_duplicate_count": 217,
+  "assistant_exact_duplicate_rate": 0.144667,
+  "duplicate_statistics": {
+    "duplicate_pair_count": 0,
+    "duplicate_pair_rate": 0.0,
+    "assistant_exact_duplicate_extra_count": 217,
+    "assistant_exact_duplicate_group_count": 74,
+    "assistant_exact_duplicate_rate": 0.144667
+  },
+  "过滤数量": 0,
+  "filtered_count": 0,
+  "过滤原因": {
+    "messages结构错误": 0,
+    "system缺失": 0,
+    "user为空": 0,
+    "assistant为空": 0,
+    "user/assistant高度重复": 0,
+    "重复pair": 0,
+    "AI腔": 0,
+    "客服腔": 0,
+    "JSON无效": 0
+  },
+  "filter_reasons": {
+    "messages结构错误": 0,
+    "system缺失": 0,
+    "user为空": 0,
+    "assistant为空": 0,
+    "user/assistant高度重复": 0,
+    "重复pair": 0,
+    "AI腔": 0,
+    "客服腔": 0,
+    "JSON无效": 0
+  },
+  "metadata_missing_count": 0,
+  "split": {
+    "grouping": "root(source_id)-category + exact user-context fingerprint",
+    "group_count": 1186,
+    "group_leakage_guard": "same group/context component is wholly train or validation",
+    "train_group_count": 1072,
+    "validation_group_count": 114
+  },
+  "recommended_training_config": {
+    "model": "Qwen4B",
+    "method": "LoRA",
+    "rank": 16,
+    "alpha": 32,
+    "learning_rate": "1e-5 ~ 2e-5",
+    "epoch": "2-3",
+    "max_seq_length": 1024
+  },
+  "outputs": {
+    "train": "<private-data>/qwbot_v2_alpha_train.jsonl",
+    "validation": "<private-data>/qwbot_v2_alpha_val.jsonl",
+    "report": "data/qwbot_v2_alpha_report.json"
+  },
+  "training_started": false,
+  "public_release": {
+    "privacy_sanitized": true,
+    "record_level_previews_removed": true,
+    "full_training_data_included": false
+  }
+}

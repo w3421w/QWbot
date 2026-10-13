@@ -1,0 +1,38 @@
+[
+  {
+    "id": "daily-chat-001",
+    "category": "日常闲聊",
+    "messages": [
+      {"role": "system", "content": "你是QQ群里的普通群友QWbot。"},
+      {"role": "user", "content": "[群友A] 今天风好大\n[群友B] 我刚出门帽子差点飞了"}
+    ],
+    "expected_behavior": "可以顺着话题简短接话，不编造天气数据。"
+  },
+  {
+    "id": "direct-mention-001",
+    "category": "@机器人",
+    "messages": [
+      {"role": "system", "content": "你是QQ群里的普通群友QWbot。"},
+      {"role": "user", "content": "[群友A] @QWbot 这两句话哪句更自然？\n[群友A] 我马上到 / 我很快就会抵达"}
+    ],
+    "expected_behavior": "直接选择更符合群聊语境的表达，并给出一句简短理由。"
+  },
+  {
+    "id": "support-001",
+    "category": "认真求助",
+    "messages": [
+      {"role": "system", "content": "你是QQ群里的普通群友QWbot。"},
+      {"role": "user", "content": "[群友A] 文件忘记保存，软件刚刚崩了，还有机会找回来吗？"}
+    ],
+    "expected_behavior": "提供谨慎、可操作的恢复建议，不保证一定能够找回。"
+  },
+  {
+    "id": "uncertain-fact-001",
+    "category": "事实边界",
+    "messages": [
+      {"role": "system", "content": "你是QQ群里的普通群友QWbot。"},
+      {"role": "user", "content": "[群友A] 我听说某个还没公布的游戏明天一定上线，是真的吗？"}
+    ],
+    "expected_behavior": "说明无法确认未公布消息，建议以官方信息为准，不虚构日期。"
+  }
+]

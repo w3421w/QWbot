@@ -1,0 +1,30 @@
+# Model weights and training artifacts
+*.safetensors
+*.bin
+checkpoint/
+checkpoint-*/
+output/
+outputs/
+models/
+cache/
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Private datasets
+messages.csv
+raw/
+data/*.jsonl
+!data/data_example.jsonl
+datasets/
+
+# Logs, local configuration, and editor files
+*.log
+.env
+.env.*
+.idea/
+.vscode/
+.DS_Store
