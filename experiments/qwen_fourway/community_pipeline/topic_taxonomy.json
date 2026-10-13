@@ -1,0 +1,11 @@
+{
+  "version":"1.0",
+  "note":"Multi-label candidates; platform is separate from topics. Extend without changing old labels.",
+  "domains": {
+    "internet_community": {"topics":["bilibili_general","xiaohongshu_general","tieba_culture","internet_memes","daily_life","campus_life","technology","social_discussion","entertainment","popular_culture"]},
+    "esports": {"topics":["league_of_legends","counter_strike","valorant","hearthstone","dota2"],"subtopics":{"league_of_legends":["lpl","lck","international_events","teams_players","gameplay","kangba_culture","community_memes","player_discussion"],"counter_strike":["cs2","csgo_history","major","teams_players","gameplay","community_memes"],"valorant":["vct","teams_players","gameplay","cn_server","streamers","community_memes"],"hearthstone":["standard","wild","arena","battlegrounds","deck_building","classes","competitive","streamers","community_memes","player_discussion","game_updates"],"dota2":["competitive","teams_players","gameplay","community_memes","player_discussion"]}},
+    "sports":{"topics":["nba","football"],"subtopics":{"nba":["teams","players","match_discussion","playoffs","finals","transfers","fan_memes","historical_match","rumor"],"football":["premier_league","la_liga","serie_a","bundesliga","ligue_1","champions_league","world_cup","national_teams","players","clubs","transfers","fan_memes","match_discussion"]}},
+    "virtual_streamer":{"topics":["cn_vup","jp_vtuber","international_vtuber","virtual_idol","livestream_interaction","stream_clips","fan_community","fan_creation","gaming_collaboration","virtual_streamer_memes","general_vtuber_discussion"],"subtopics":{"general_vtuber_discussion":["stream_clips","gaming_collaboration","fan_community","fan_creation","livestream_interaction"]}},
+    "other":{"topics":["unknown"]}
+  }
+}

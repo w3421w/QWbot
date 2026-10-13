@@ -1,0 +1,1 @@
+编号02：Qwen3 1.7B 思考；基础权重和01相同；enable_thinking=True；结果写在本目录/results。
